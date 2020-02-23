@@ -11,6 +11,6 @@ public class Application {
     Teacher bob = new Teacher("Bob", student);
     bob.addStudent(new Student("Ben", 19));
     bob.addStudent(new Student("Solider", 20));
+    bob.printAllStudent();
   }
-
 }

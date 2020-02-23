@@ -12,4 +12,10 @@ public class Teacher {
     public void addStudent(Student stu) {
         student.put(stu.getName(), stu.getAge());
     }
+
+    public void printAllStudent() {
+        for (String s : student.keySet()) {
+            System.out.println(s + "," + student.get(s));
+        }
+    }
 }
